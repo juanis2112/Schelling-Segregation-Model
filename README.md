@@ -10,7 +10,9 @@ There is a town with 80 inhabitants and 100 houses. The houses are distributed i
 Each moving process involves the following steps:
 
 **1)** A citizen is chosen at random.
+
 **2)** A vacant place is chosen at random.
+
 **3)** The citizen completes his move if he is happier in the place where he arrives.
 
 The happiness in this simulation is a real number between 0 and 1 and depends on the number of neighbors that have the same color as the citizen who wants to move. If all the neighbors are of the other color, happiness is 0. If there is a perfect balance between colors of the neighbors, happiness is 1. If all the neighbors are of the same color, happiness is 0.5. 
